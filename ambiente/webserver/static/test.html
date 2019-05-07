@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+	<head>
+		<script type="text/javascript" src="static/plugins/socket-io/socket.io.js"></script>
+		<script type="text/javascript">
+			var socket = io.connect("/chat");
+			socket.emit("chat", "hola");
+		</script>
+	</head>
+	<body>
+		<div id="text">????aaaa</div>		
+	</body>
+</html>

@@ -1,0 +1,37 @@
+$def with (lis)
+<div id='confNLP-form' class='form-group container-fluid'>  
+    <div class='row'>   
+        <div class='col-xs-5 col-md-5'> 
+            <label>Ingrese comando manualmente</label>  
+            <div class='row'>   
+                <div class='col-xs-7 col-md-7 nopadding'> 
+                    <input id='' type='text' class='form-control' placeholder='palabra'>   
+                </div>  
+                <div class='col-xs-5 col-md-5 nopadding'> 
+                    <select id='' type='select' class='form-control' placeholder="">   
+                        <option></option> 
+                        <option></option> 
+                    </select> 
+                </div>  
+            </div>  
+        </div>  
+        <div class='col-xs-5 col-md-5'> 
+            <label>Ingrese comando manualmente</label>  
+            <input id='' type='text' class='form-control' placeholder='cosa'>   
+        </div>  
+        <div class='col-xs-2 col-md-2'></div>   
+    </div>  
+    <div class='row'>   
+        <div class='col-xs-2 col-md-2'> 
+            <button id="confNLP-save"class='form-control'>GUARDAR</button>
+        </div>  
+        <div class='col-xs-2 col-md-2'> 
+            <button id="confNLP-add"class='form-control'>AGREGAR HIJO</button>
+        </div>  
+        <div class='col-xs-2 col-md-2'> 
+            <button id="confNLP-delete"class='form-control'>BORRAR NODO</button>
+        </div>  
+    </div>  
+    $for i in lis: 
+        $:i
+</div>

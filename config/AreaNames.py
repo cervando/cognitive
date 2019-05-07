@@ -1,0 +1,13 @@
+Ambiente = 1048576
+Ambiente_WebServer = 1081344
+Sistemasensorial = 2097152
+Sistemasensorial_NLP = 2129920
+Sistemasensorial_TreeBankToCommand = 2162688
+Interpretacion = 3145728
+Workingmemory = 4194304
+LongTermMemory = 5242880
+Emociones = 6291456
+TomadeDesiciones = 7340032
+Planeacion = 8388608
+SistemaMotor = 9437184
+Test = 10485760
